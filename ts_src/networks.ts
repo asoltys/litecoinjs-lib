@@ -47,3 +47,25 @@ export const testnet: Network = {
   scriptHash: 0xc4,
   wif: 0xef,
 };
+export const litecoin: Network = {
+  messagePrefix: '\x18Bitcoin Signed Message:\n',
+  bech32: 'ltc',
+  bip32: {
+    public: 0x043587cf,
+    private: 0x04358394,
+  },
+  pubKeyHash: 0x6f,
+  scriptHash: 0x32,
+  wif: 0xef,
+};
+export const litereg: Network = {
+  messagePrefix: '\x18Bitcoin Signed Message:\n',
+  bech32: 'rltc',
+  bip32: {
+    public: 0x043587cf,
+    private: 0x04358394,
+  },
+  pubKeyHash: 0x6f,
+  scriptHash: 0x3a,
+  wif: 0xef,
+};
